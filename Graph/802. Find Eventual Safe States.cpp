@@ -1,6 +1,5 @@
 class Solution {
-public:
-    
+public:  
     bool DFSTerminal(int node,vector<vector<int>>&graph,vector<bool>visited,vector<int>&dp){
          if(graph[node].size()==0){
              return true;
