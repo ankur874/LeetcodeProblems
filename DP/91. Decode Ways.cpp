@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int numDecodings(string s,vector<int>dp) {
+    int numDecodings(string s,vector<int>&dp) {
         if(s.length()<=0){
             return 1;
         }
